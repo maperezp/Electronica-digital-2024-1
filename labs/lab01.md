@@ -22,14 +22,13 @@ A  | B  | Cin | Out | Cout
 
 Según la especificación del sumador completo de 1 bit, se deduce que el bloque o modulo funcional esta dado por la siguiente gráfica: 
 
-![Sumador 1bit](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab01-sumador1b/doc/bloqSum1b.jpg)
+![[sum1bBloq.jpg]]
 
 ### 3 Lógica combinacional 
 
 Optimizando el circuito, según la tabla de verdad, podemos observar que la lógica combinación del ejercicio propuesto esta dada por:
 
-![Sumador 1bit](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab01-sumador1b/doc/sum1bPuertas.jpg)
- 
+![[sum1bPuertas.jpg]]
 ### 4 Implementación HDL con Verilog
 
 
@@ -43,9 +42,9 @@ Una vez abierto el  framework  de [Quartus prime lite](https://github.com/ELINGA
 
 Sin embargo si ***no*** importó el archivo ***sum1bcc_primitive.v*** ,  realice el siguiente procedimiento: 
 
-1. Navegar en el menú ***File*** y hacer clic en``` ***New***. Selecionar ***Verilog HDL File***  según imagen:
+1. Navegar en el menú ***File*** y hacer clic en ***New***. Selecionar ***Verilog HDL File***  según imagen:
 
-![proyectWizard](./figs/f5.png) 
+![[f5.png]]
 
 2.  Digitar o copiar el siguiente código, pero antes recuerde que el HDL lo encuentra en la carpeta ```src```. 
 
