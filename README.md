@@ -61,7 +61,10 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluye 
 Semana   | Tema   | Material 
 --       | --     | --         
 Semana 1 | introducción | [week1_pdf](./slides/week01/week1_digital1.pdf)| 
-Semana 2 | sistema Númerico | [week2_pdf](./slides/week02/)| 
+Semana 2 | sistema Númerico | [week2_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week02)| 
+Semana 3 | logica combinacional | [week3_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week03)| 
+Semana 4 | logica combinacional/análisis de tiempos | [week4_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week04)| 
+
 
 
 ## Estructura de los Laboratorios y Proyecto 
@@ -113,8 +116,7 @@ Recuerde también revisar que en la página de github se reflejan las actualizac
 ### Tarjetas de trabajo 
 
 #### CicloneIV
-* [link de documentación](https://www.didacticaselectronicas.com/index.php/sistemas-de-desarrollo/cpld-y-fpga/tarjeta-de-desarrollo-altera-cyclone-iv-tarjetas-sistemas-boards-de-desarrollo-fpga-ep4ce10e22c8n-altera-cyclone-iv-4-detail)
-* [link de documentación 2](http://land-boards.com/blwiki/index.php?title=A-C4E6_Cyclone_IV_FPGA_EP4CE6E22C8N_Development_Board)
+* [link de documentación](http://land-boards.com/blwiki/index.php?title=A-C4E6_Cyclone_IV_FPGA_EP4CE6E22C8N_Development_Board)
 * [Recursos](https://github.com/unal-edigital1/2021-2/tree/master/docs/recursosCicloneIV)
 
 ### Ejemplos sencillos de programación

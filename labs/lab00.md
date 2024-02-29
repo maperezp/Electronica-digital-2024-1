@@ -39,8 +39,8 @@ Esta guia está basada en el lab0 de intel [link](./docs//Intro_to_FPGA.pdf)
 En la terminal de linux:
 
  ```
-    chmod +x nombre_archivo.run
-    ./nombre_archivo.run
+chmod +x nombre_archivo.run
+./nombre_archivo.run
 ```
 
 ###  Configuración de variables de entorno
@@ -48,12 +48,12 @@ En la terminal de linux:
 En el archivo ```.bashrc```:
 
 ```
-    export ALTERAPATH="/home/user*/intelFPGA_lite/23.1std/"
-    export QUARTUS_ROOTDIR=${ALTERAPATH}/quartus
-    export QUARTUS_ROOTDIR_OVERRIDE="$QUARTUS_ROOTDIR"
-    export PATH=$PATH:${ALTERAPATH}/quartus/sopc_builder/bin
-    export PATH=$PATH:${ALTERAPATH}/nios2eds/bin
-    export PATH=$PATH:${QSYS_ROOTDIR}
+export ALTERAPATH="/home/user*/intelFPGA_lite/23.1std/"
+export QUARTUS_ROOTDIR=${ALTERAPATH}/quartus
+export QUARTUS_ROOTDIR_OVERRIDE="$QUARTUS_ROOTDIR"
+export PATH=$PATH:${ALTERAPATH}/quartus/sopc_builder/bin
+export PATH=$PATH:${ALTERAPATH}/nios2eds/bin
+export PATH=$PATH:${QSYS_ROOTDIR}
 ```
 
 donde ```user*``` corresponde a la cuenta de usuario del computador.
@@ -61,7 +61,7 @@ donde ```user*``` corresponde a la cuenta de usuario del computador.
 En la terminal:
 
 ```
-    sudo ln -s $QUARTUS_ROOTDIR/bin/quartus /bin/quartus
+sudo ln -s $QUARTUS_ROOTDIR/bin/quartus /bin/quartus
 ```
 
 Ahora se podrá correr la IDE usando el comando ```quartus``` en la terminal.
@@ -130,6 +130,7 @@ Center (SSLC)](https://www.intel.com/content/www/us/en/secure/forms/fpga-sslc-re
     - Dar click en ```+New Computer```.
 
     - Diligenciar los campos requeridos:
+        - En  ```Primary NIC ID``` deben escribir el nombre de la cuenta de usuario de su pc.
         
         - En ```License type``` seleccionar FIXED.
 
@@ -174,25 +175,25 @@ Center (SSLC)](https://www.intel.com/content/www/us/en/secure/forms/fpga-sslc-re
 
 ![proyectWizard](./figs/f1.png) 
 
-* ***Directory, Name, Top-Level Entity***,  seleccione el directorio donde se guarda el proyecto y el nombre del mismo. Tenga presente que debe colocar el nombre del módulo top en la tercera casilla, puede ser el mismo del proyecto. (ver imagen) 
+* **Directory, Name, Top-Level Entity**,  seleccione el directorio donde se guarda el proyecto y el nombre del mismo. Tenga presente que debe colocar el nombre del módulo top en la tercera casilla, puede ser el mismo del proyecto. (ver imagen) 
     ***Recuerde:*** El nombre del módulo-top es sensible a mayúsculas.
 
 ![proyectWizard](./figs/f2.png) altera
 
-* ***Project Type***, seleccione el template ```Empy project```.
+* **Project Type**, seleccione el template ```Empy project```.
 
-* ***Add File***, si ya cuenta con los archivos fuentes de HDL adicione los ficheros respectivos. De igual manera, pueden agregar archivos fuentes más adelante.
+* **Add File**, si ya cuenta con los archivos fuentes de HDL adicione los ficheros respectivos. De igual manera, pueden agregar archivos fuentes más adelante.
 
-*  ***Family, Device & Board Settings***,  Busque la tarjeta de desarrollo o la referencia de la FPGA  que se va a utilizar, ```10M50DAF484```, si considera necesario busque el nombre en la casilla  ```Name filter```, seleccione en el panel  Available devices el dispositivo usado. (ver imagen)
+*  **Family, Device & Board Settings**,  Busque la tarjeta de desarrollo o la referencia de la FPGA  que se va a utilizar, ```10M50DAF484```, si considera necesario busque el nombre en la casilla  ```Name filter```, seleccione en el panel  Available devices el dispositivo usado. (ver imagen)
 
 ![proyectWizard](./figs/f3.png) 
 
 
-* ***EDA Tool Settings***,  espeficar la herramienta de simulación que se va a utilizar, se recomiendan  ```ModelSim``` (ver imagen) o ```Questa```. 
+* **EDA Tool Settings**,  espeficar la herramienta de simulación que se va a utilizar, se recomiendan  ```ModelSim``` (ver imagen) o ```Questa```. 
 
 ![proyectWizard](./figs/f4.png) 
 
-* ***Summary***, se debe revisar que la información de este panel esté acorde según la configuración realizada . (ver imagen)
+* **Summary**, se debe revisar que la información de este panel esté acorde según la configuración realizada . (ver imagen)
 
 ![proyectWizard](./figs/f4b.png) 
 
